@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 text-center">
+                <h1>Stripe Payments</h1>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 text-center">
+                <a href="{% url 'login' %}" class="btn btn-primary">Login</a>
+                <a href="{% url 'signup' %}" class="btn btn-secondary">Signup</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
